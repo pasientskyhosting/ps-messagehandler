@@ -12,7 +12,7 @@ fi
 if [ ! -d /data ];
 then
     echo "Missing /data directory with code to execute"
-    echo "Startup command is: command=java messagehandler.jar"
+    echo "Startup command is: command=java -jar messagehandler.jar"
     exit 1
 fi
 
